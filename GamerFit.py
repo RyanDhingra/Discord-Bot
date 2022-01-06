@@ -27,7 +27,7 @@ async def on_message(message):
     elif message.content[0:9] == 'set timer':
         if ((message.content[-2:]).isdigit() == True) and (int(message.content[-2:]) != 0):
             await message.channel.send('Your activity timer has been set.')
-            x = int(message.content[-2:]) * 6
+            x = int(message.content[-2:]) * 60
             timer_num.append(x)
         else:
             await message.channel.send("To set your activity timer, type the following command with your desired number of minutes: 'set timer ##'.")
@@ -93,4 +93,4 @@ async def on_message(message):
             elif goal_num == [] and timer_num != []:
                 await message.channel.send("Slow down there! Don't forget to set your activity goal.")
 
-client.run('OTI3OTg3ODQwODM3NjMyMDkw.YdSOBg.KDXHob91GsWyhqS41sSA0M-kHzU')
+#client.run(TOKEN)
