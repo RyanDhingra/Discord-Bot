@@ -108,7 +108,7 @@ async def on_message(message):
                     colour = discord.Colour.dark_blue()
         )
         embed.add_field(name = '1. Set Timer 00', value = 'Use this command to set your timer with your timer number.', inline = False)
-        embed.add_field(name = '2. Set Goal 00', value = 'Use this command to set your goal with your goal numbe.r', inline = False)
+        embed.add_field(name = '2. Set Goal 00', value = 'Use this command to set your goal with your goal number.', inline = False)
         embed.add_field(name = '3. Ready To Game', value = 'Use this command to start your timer, and begin to game away!', inline = False)
         embed.add_field(name = '4. Activity Status', value = 'Use this command to check your current activity status.', inline = False)
         embed.add_field(name = '5. Motivation', value = 'Use this command to get some fitness motivation!', inline = False)
