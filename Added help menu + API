@@ -84,7 +84,7 @@ async def on_message(message):
                 x = random.randrange(0,9)
                 y = random.randrange(0,10)
                 time.sleep(timer_num[0])
-                await message.channel.send("Hey <@&" + "928104297185562674" + ">, it's time to start your activity!            Suggested Activity: " + activity_list[y] + "    Repititions: " + str(rep_list[x]))
+                await message.channel.send("Hey <@" + str(message.author.id) + ">, it's time to start your activity!            Suggested Activity: " + activity_list[y] + "    Repititions: " + str(rep_list[x]))
 
 
         else:
