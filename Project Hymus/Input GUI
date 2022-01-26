@@ -12,8 +12,8 @@ def booking_info():
     info_window.geometry("400x400")
     info_window.configure(bg='lightblue')
 
-    logo = ImageTk.PhotoImage(Image.open('hymussportslogo.png'))
-    logo_label = Label(image=logo).pack()
+    #logo = ImageTk.PhotoImage(Image.open('IMAGE'))
+    #logo_label = Label(image=logo).pack()
 
     booking_name = Label(info_window, text = "Enter Customer Name:").pack()
     entry1 = Entry(info_window, width=60)
@@ -52,8 +52,10 @@ def booking_info():
         f.close()
         info_window.quit()
         
+    '''Buttons'''    
     finish = Button(info_window, text="Click to complete booking.", command=get_booking_info).pack()
     cancel = Button(info_window, text="Cancel", command=info_window.quit).pack()
+    
     info_window.mainloop()
 
 if __name__ == "__main__":
