@@ -38,7 +38,7 @@ def booking_info():
     '''Information Getter'''
     def get_booking_info():
         
-        with open("bookingDataStorage.txt", "w") as f:
+        with open("TXT FILE", "w") as f:
             f.write(entry1.get())
             f.write("\n")
             f.write(entry2.get())
