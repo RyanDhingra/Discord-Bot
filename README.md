@@ -1,2 +1,2 @@
-# Year-1-Projects
+# GamerFit Discord Bot
 GamerFit is a discord bot created to help users stay fit during long hours of gaming and screen time. The bot allows the user to set personal reminders at their desired time interval in order to be reminded to take a break from being in front of their screen. The reminder is presented as a message that mentions the user, and also provides a recommended exercise for the user to perform. The help menu can be accessed by typing '>help' into your selected discord text channels, and it includes the commands to operate the bot. 
